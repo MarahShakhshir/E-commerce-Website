@@ -2,7 +2,10 @@
     margin: 0;
     font-family: Arial, sans-serif;
     background-color:  #FEE7EC;
+    /* background-color:  red; */
+    ;
    }
+   
    
    .navbar {
     display: flex;
@@ -99,7 +102,7 @@ position: absolute;
     gap: 20px;
     padding: 20px;
     /* transform: translateY(-20%); */
-        background-color: rgb(110, 15, 15);
+        /* background-color: rgb(110, 15, 15); */
     
 }
 .product-card {
@@ -109,11 +112,13 @@ position: absolute;
     border: 1px solid #ccc;
     border-radius: 10px;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
+    padding-bottom: 15px;
+    padding-left: 15px;
       
    
      gap:-20px;
-    background-color: rgb(146, 117, 226);
+    background-color:WHITE;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -126,7 +131,9 @@ position: absolute;
     margin:5px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(216, 219, 12);
+    /* border:solid 1px black; */
+    /* border-radius:10px; */
+    /* background-color: rgb(216, 219, 12);1` */
 }
 .product-img{
     width:100%;
@@ -137,9 +144,83 @@ position: absolute;
 #price{
     font-size: 1.2em;
     color: #333;
-    margin-top:-10px;
-     margin-bottom:5px;
+    /* margin-top:-10px; */
+     /* margin-bottom:5px; */
 }
 .add-to-cart{
     padding-left:0;
+}
+.price-rating-container{
+     margin-top:-30px;
+     /* margin-bottom:5px; */
+    /* border:1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        /* gap:40%; */
+        /* margin-top:0px; */
+     margin-bottom:-15px;
+}
+.cart-icon{
+    font-size: 1.5em;
+}
+
+.welcome-message{
+
+color:#945a78;
+padding-left: 20px;
+}
+
+
+/* .footer{
+    width: 100%;
+     height:300px;
+     margin-top: 20px;
+     display: flex;
+    text-align: center;
+    
+    background-color: rgb(36, 32, 32);
+    color: black;
+} */
+
+.footer {
+    background-color: black;
+    text-align: center;
+       /* margin: 0;
+    padding: 0; */
+      width: 100%;
+      color:rgb(211, 189, 189);
+      }
+
+.footer-links {
+    margin: 15px 0;
+   color:rgb(211, 189, 189);
+}
+ 
+
+.footer-links a {
+    text-decoration: none;
+    color:rgb(224, 165, 165);
+
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #fc0384;
+}
+
+.social-icons {
+    margin: 15px 0;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #fc0384;
+}
+
+.social-icons i:hover {
+    color: #d6006e;
 }
